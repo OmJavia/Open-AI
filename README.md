@@ -1,9 +1,8 @@
-# OpenAI Speech Assistant
+# OpenAI Speech Assistant (Jarvis-like AI)
 
-**Project Description**: This project is a speech-enabled assistant that uses **OpenAI's GPT API** for intelligent responses, with **Speech Recognition** for voice input. The assistant listens to user speech, converts it to text, sends it to OpenAI's API, and speaks back the generated response. 
+**Project Description**: This project is a personal AI assistant inspired by *Jarvis*, the AI from Marvel. Built using **OpenAI's GPT API**, **Python**, and **Speech Recognition**, this assistant can listen to voice commands, process information, and respond in real-time with intelligent and conversational answers. It is designed to offer an interactive, hands-free experience for general knowledge, personal tasks, and even friendly conversations.
 
 ![Ai](https://github.com/user-attachments/assets/c2bc8e64-315b-45a4-ac42-b07be74031cc)
-
 ---
 
 ## Table of Contents
@@ -20,23 +19,33 @@
 
 ## Features
 
-- **Voice Recognition**: Listens to user speech and converts it to text using the Speech Recognition library.
-- **OpenAI Integration**: Uses the OpenAI GPT model to process and respond to the user’s query.
-- **Text-to-Speech Output**: Speaks the response back to the user, making it fully interactive.
-- **Multi-Purpose**: The assistant can handle a wide variety of queries, from general knowledge to casual conversation.
+- **Voice Recognition & Commands**: The assistant listens to voice commands, converting speech to text for further processing.
+- **Interactive AI Responses**: Powered by OpenAI, the assistant delivers contextual responses, making conversations feel natural.
+- **Jarvis-Like Functionality**: Offers a personalized, AI-driven experience similar to *Jarvis*, answering questions, holding conversations, and following multi-step commands.
+- **Real-Time Text-to-Speech**: The assistant uses text-to-speech (TTS) to audibly respond, creating a seamless dialogue experience.
+- **Task Assistance**: Can provide information, answer questions, and assist with everyday tasks like setting reminders or looking up facts.
 
 ## Technologies Used
 
 - **Python**: Core programming language for the project.
-- **OpenAI API**: Provides natural language responses to user queries.
-- **SpeechRecognition**: Listens to user voice input and converts it to text.
-- **pyttsx3**: Converts text responses into speech for audible feedback.
+- **OpenAI API**: Enables the assistant to understand and generate conversational responses.
+- **SpeechRecognition**: Converts spoken language to text, allowing the assistant to interpret voice commands.
+- **pyttsx3**: Text-to-speech library used to speak responses aloud, adding to the *Jarvis*-like experience.
 
 ## Installation
+
+To run this project locally, follow these steps:
 
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/yourusername/openai-speech-assistant.git
    cd openai-speech-assistant
 
+2. **Set Up Open AI API key**
+   - Obtain your API key from OpenAI
+   - Paste the key in openaitest file under the openai api key section
+
+3. **Run The Program**
+   ``` bash
+   python main.py
 
